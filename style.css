@@ -1,0 +1,129 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f0f8ff;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header / Hero Section */
+.hero {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+}
+
+.hero .highlight {
+  color: #ffe600;
+}
+
+.subtitle {
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+
+/* About Section */
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background: #fff;
+}
+
+.about h2 {
+  color: #6a11cb;
+  margin-bottom: 20px;
+}
+
+/* Projects Section */
+.projects {
+  background: #f3f0ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.projects h2 {
+  color: #2575fc;
+  margin-bottom: 40px;
+}
+
+.project-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.project-card {
+  background: white;
+  border: 2px solid #d1c4e9;
+  padding: 20px;
+  width: 250px;
+  border-radius: 12px;
+  transition: transform 0.3s;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+/* Contact Section */
+.contact {
+  background: #fff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact h2 {
+  color: #6a11cb;
+  margin-bottom: 20px;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact input,
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.contact button {
+  background: #2575fc;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.contact button:hover {
+  background: #6a11cb;
+}
+
+/* Footer */
+footer {
+  background: #222;
+  color: #aaa;
+  text-align: center;
+  padding: 20px;
+}
