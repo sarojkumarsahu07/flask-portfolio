@@ -26,3 +26,8 @@ portfolio/
 │ └── style.css # Stylesheet
 ├── templates/
 │ └── index.html # HTML template
+
+## 📸 Screenshot
+![aef0c11a232964100d4f5b7780f2b930](https://github.com/user-attachments/assets/407f4189-6afa-44b1-bfec-b309c8741f57)
+
+
