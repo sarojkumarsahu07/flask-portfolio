@@ -28,6 +28,7 @@ portfolio/
 │ └── index.html # HTML template
 
 ## 📸 Screenshot
-![aef0c11a232964100d4f5b7780f2b930](https://github.com/user-attachments/assets/407f4189-6afa-44b1-bfec-b309c8741f57)
+![Screenshot 2025-05-11 101023](https://github.com/user-attachments/assets/ceac1be4-308c-4f62-abc6-6d2202799262)
+
 
 
