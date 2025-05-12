@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+  <header class="hero">
+    <h1>Hi, I'm <span class="highlight">Saroj kumar sahu</span></h1>
+    <p class="subtitle">Frontend Developer & Designer</p>
+  </header>
+
+  <section class="about">
+    <h2>About Me</h2>
+    <p>I’m a passionate web developer with a strong focus on creating clean, responsive, and user-friendly websites. </p>
+  </section>
+
+  <section class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>personal portfolio project</h3>
+        <p>"A responsive personal portfolio website showcasing my skills, projects, and experience.</p>
+      </div>
+      <div class="project-card">
+        <h3>HR Data analysis</h3>
+        <p>its a project report on a company data,analyzed this data and extract meaningful insights</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
