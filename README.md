@@ -1,6 +1,6 @@
 # 🌐 Personal Portfolio - Flask Web App
 
-This is a vibrant, modern personal portfolio website built with **Flask**, **HTML**, and **CSS**. It showcases a developer's skills, projects, and includes a contact form. Designed to be clean, responsive, and easy to customize.
+This is a vibrant, modern personal portfolio website built with **Flask**, **HTML**, and **CSS**. It showcases a developer's skills, projects, and includes a contact form. Designed to be clean, responsive, and easy to customize,deployed live on Render. This portfolio is designed to help developers present their personal brand, showcase projects, and receive contact inquiries — all in a clean, modern layout.
 
 🌐 Live Website
 
